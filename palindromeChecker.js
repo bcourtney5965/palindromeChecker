@@ -8,11 +8,11 @@
 //  3.) Call the palindromeChecker function with "input" as an argument
 //  	e.g.  palindromeChecker(input);
 
-var input = "";													//  e.g. input = "Race car";
+var input = "";								//  e.g. input = "Race car";
 var palindromeChecker = function(string) {
-	var lowCaseString = string.toLowerCase();					//  e.g. lowCaseString = "race car";
-	var arrayOfString = lowCaseString.split(" ");				//  e.g. arrayOfString = ["race", "car"];
-	var stringNoSpaces = arrayOfString.join("");				//  e.g. stringNoSpaces = "racecar"; 
+	var lowCaseString = string.toLowerCase();			//  e.g. lowCaseString = "race car";
+	var arrayOfString = lowCaseString.split(" ");			//  e.g. arrayOfString = ["race", "car"];
+	var stringNoSpaces = arrayOfString.join("");			//  e.g. stringNoSpaces = "racecar"; 
 	function stringReverser(s) {
 		var o = "";
 		for( var i = s.length - 1; i >= 0; i-- ) {
