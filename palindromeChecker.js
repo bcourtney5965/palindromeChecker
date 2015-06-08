@@ -26,5 +26,3 @@ var palindromeChecker = function(string) {
 		return false;
 	}
 }
-input = "Race car";
-palindromeChecker(input);
